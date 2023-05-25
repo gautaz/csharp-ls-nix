@@ -9,7 +9,8 @@ in with pkgs; buildDotnetModule {
     repo = "csharp-language-server";
     sha256 = "sha256-JIUYlvZ+9XnisRIgPm0lWsUvgnudUY19rL81iX0Utd4=";
   };
+  dotnet-runtime = dotnet-runtime_7;
   dotnet-sdk = dotnet-sdk_7;
-  projectFile = "src/csharp-language-server.sln";
+  projectFile = "src/CSharpLanguageServer/CSharpLanguageServer.fsproj";
   nugetDeps = ./nuget-deps.nix;
 }
