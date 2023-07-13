@@ -4,7 +4,7 @@
 { fetchNuGet }: [
   (fetchNuGet { pname = "Argu"; version = "6.1.1"; sha256 = "1v996g0760qhiys2ahdpnvkldaxr2jn5f1falf789glnk4a6f3xl"; })
   (fetchNuGet { pname = "Castle.Core"; version = "5.1.1"; sha256 = "1caf4878nvjid3cw3rw18p9cn53brfs5x8dkvf82xvcdwc3i0nd1"; })
-  (fetchNuGet { pname = "FSharp.Core"; version = "7.0.200"; sha256 = "1ji816r8idwjmxk8bzyq1z32ybz7xdg3nb0a7pnvqr8vys11bkgb"; })
+  (fetchNuGet { pname = "FSharp.Core"; version = "7.0.300"; sha256 = "017mp4ndfi9ckps9jczw6d48xm0c2rakf3i5g5f6mimhd1cvlf54"; })
   (fetchNuGet { pname = "Humanizer.Core"; version = "2.14.1"; sha256 = "1ai7hgr0qwd7xlqfd92immddyi41j3ag91h3594yzfsgsy6yhyqi"; })
   (fetchNuGet { pname = "ICSharpCode.Decompiler"; version = "7.2.1.6856"; sha256 = "19z68rgzl93lh1h8anbgzw119mhvcgr9nh5q2nxk6qihl2mx97ba"; })
   (fetchNuGet { pname = "Ionide.KeepAChangelog.Tasks"; version = "0.1.8"; sha256 = "066zla2rp1sal6by3h3sg6ibpkk52kbhn30bzk58l6ym7q1kqa6b"; })
